@@ -55,10 +55,17 @@ This will link an image from the listed url like so:
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/6/6f/HP_logo_630x630.png "Logo Title")
 
 
-#### File Reference Link
-\[Reference File Link\]\(/HP_logo.png\)
+#### File Reference
+\!\[alt text\]\[logo\]
 
-This will create a text that reads [Reference File Link](../media/HP_logo.png) and when clicked will link to the file directory listed in the parens
+\[logo\]: https://github.com/comptonk15/markdown_tutorial/blob/master/Media/HP_logo.png "Logo Title 2"
+
+This will provide an image via a file reference rather than a url
+
+![alt text][logo]
+
+[logo]: https://github.com/comptonk15/markdown_tutorial/blob/master/Media/HP_logo.png "Logo Title Text 2"
+
 ***
 
 Keith has things left to do for this final project.
