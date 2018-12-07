@@ -56,9 +56,9 @@ This will link an image from the listed url like so:
 
 
 #### File Reference Link
-\[Reference File Link\]\(../blob/master/LICENSE\)
+\[Reference File Link\]\(/HP_logo.png\)
 
-This will create a text that reads [Reference File Link](../blob/master/LICENSE) and when clicked will link to the file directory listed in the parens
+This will create a text that reads [Reference File Link](../media/HP_logo.png) and when clicked will link to the file directory listed in the parens
 ***
 
 Keith has things left to do for this final project.
