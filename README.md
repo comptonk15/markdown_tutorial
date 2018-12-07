@@ -76,6 +76,7 @@ If you need to represent a code block without worrying about the syntax being in
 You can indicate a specific language syntax by using three consecutive \`\`\`backticks\`\`\`
 
 If you were trying to indicate that the code block was using Ruby you would put:
+
 \`\`\`Ruby
 var s = 100
 let(:symbol) { double 'Symbol'}
