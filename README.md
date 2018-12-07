@@ -65,7 +65,32 @@ This will provide an image via a file reference rather than a url
 ![alt text][logo]
 
 [logo]: https://github.com/comptonk15/markdown_tutorial/blob/master/Media/HP_logo.png "Logo Title Text 2"
-
 ***
+
+# Inline Code Blocks
+If you need to represent a code block without worrying about the syntax being interpreted as a markdown shorthand you can use \`backticks code block\` which will make looks like the following:
+
+`backticks code block`
+
+### Indicating Language
+You can indicate a specific language syntax by using three consecutive \`\`\`backticks\`\`\`
+
+If you were trying to indicate that the code block was using Ruby you would put:
+\`\`\`Ruby
+var s = 100
+let(:symbol) { double 'Symbol'}
+\`\`\`
+
+Which would out put a code block that knew which language syntax to use. It should appear like this:
+```Ruby
+var s = 100
+let(:symbol) { double 'Symbol'}
+```
+
+This is helpful in creating specific documentation relating to individual languages.
+***
+
+# Tables
+Tables can be represented by
 
 Keith has things left to do for this final project.
