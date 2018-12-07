@@ -48,11 +48,11 @@ This will create a text that reads [Reference File Link](../blob/master/LICENSE)
 There are two ways to implement images in your markdown file. There is inline images and file reference images.
 
 #### Inline Style
-\!\[alt text\]\(https://png.pngtree.com/element_pic/17/01/01/93b5a86a0836ef7f1a078d48ab3bc32f.jpg "Logo Title"\)
+\!\[alt text\]\(https://upload.wikimedia.org/wikipedia/commons/6/6f/HP_logo_630x630.png "Logo Title"\)
 
 This will link an image from the listed url like so:
 
-![alt text](https://png.pngtree.com/element_pic/17/01/01/93b5a86a0836ef7f1a078d48ab3bc32f.jpg "Logo Title")
+![alt text](https://upload.wikimedia.org/wikipedia/commons/6/6f/HP_logo_630x630.png "Logo Title")
 
 
 #### File Reference Link
