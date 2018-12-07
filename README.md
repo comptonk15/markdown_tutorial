@@ -141,5 +141,13 @@ Block Quotes can be indicated by using a \> before the quote wanted to be blocke
 and the markdown will be interpreted as:
 
 >this text
+***
+
+# Creating Horizontal Lines
+To separate segements like this tutorial has done you need to use three consecutive \*\*\*astrisks, \_\_\_underscores, or \-\-\-hyphens.
+
+This line is separate
+***
+From this line
 
 Keith has things left to do for this final project.
