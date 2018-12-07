@@ -131,7 +131,9 @@ Markdown | Less | Pretty
 --- | --- | ---
 *Still* | `renders` | **nicely**
 1 | 2 | 3
+***
 
+# Block Quotes
 
 
 Keith has things left to do for this final project.
