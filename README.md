@@ -48,9 +48,12 @@ This will create a text that reads [Reference File Link](../blob/master/LICENSE)
 There are two ways to implement images in your markdown file. There is inline images and file reference images.
 
 #### Inline Style
-\!\[alt text\]\(https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1"\)
+\!\[alt text\]\(https://png.pngtree.com/element_pic/17/01/01/93b5a86a0836ef7f1a078d48ab3bc32f.jpg "Logo Title"\)
 
-This will create a text that reads [inline-style link](https://www.google.com) and when clicked will link to the google url.
+This will link an image from the listed url like so:
+
+![alt text](https://png.pngtree.com/element_pic/17/01/01/93b5a86a0836ef7f1a078d48ab3bc32f.jpg "Logo Title")
+
 
 #### File Reference Link
 \[Reference File Link\]\(../blob/master/LICENSE\)
