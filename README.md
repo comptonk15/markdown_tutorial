@@ -75,7 +75,7 @@ If you need to represent a code block without worrying about the syntax being in
 ### Indicating Language
 You can indicate a specific language syntax by using three consecutive \`\`\`backticks\`\`\`
 
-If you were trying to indicate that the code block was using Ruby you would put:
+If you were trying to indicate that the code block was using Ruby you would put: ..
 
 \`\`\`Ruby
 var s = 100
@@ -134,6 +134,12 @@ Markdown | Less | Pretty
 ***
 
 # Block Quotes
+Block Quotes can be indicated by using a \> before the quote wanted to be blocked out. If I were to say I wanted to block out "this text" I would enter the markdown as:
 
+\>this text
+
+and the markdown will be interpreted as:
+
+>this text
 
 Keith has things left to do for this final project.
