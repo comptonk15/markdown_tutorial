@@ -32,12 +32,12 @@ As you can see, it does not matter which number is used. MarkDown knows to inter
 # Links
 There are multiple options to implementing links using MarkDown. The first option is an inline style link:
 
-### Inline Style Link
+#### Inline Style Link
 \[inline-style link\]\(https://www.google.com\)
 
 This will create a text that reads [inline-style link](https://www.google.com) and when clicked will link to the google url.
 
-### File Reference Link
+#### File Reference Link
 \[Reference File Link\]\(../blob/master/LICENSE\)
 
 This will create a text that reads [Reference File Link](../blob/master/LICENSE) and when clicked will link to the file directory listed in the parens
