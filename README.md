@@ -4,6 +4,7 @@ This is a tutorial on how to use markdown. Markdown is a plaintext language, mea
 
 # Headers
 You can indicate a Header by using one or multiple \# before your text you want to format as a header
+***
 
 # _Italic Letters_
 You can represent _italic_ letters by placing either an \*astrisk\* or an \_underscore\_ around the text you would like to add emphasis to.
@@ -33,7 +34,7 @@ As you can see, it does not matter which number is used. MarkDown knows to inter
 There are multiple options to implementing links using MarkDown. The first option is an inline style link:
 
 #### Inline Style Link
-\[inline-style link\]\(https://www.google.com\)
+\[inline-style link\]\(\https://www.google.com\)
 
 This will create a text that reads [inline-style link](https://www.google.com) and when clicked will link to the google url.
 
@@ -44,6 +45,17 @@ This will create a text that reads [Reference File Link](../blob/master/LICENSE)
 ***
 
 # Images
+There are two ways to implement images in your markdown file. There is inline images and file reference images.
 
+#### Inline Style
+\!\[alt text\]\(https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1"\)
+
+This will create a text that reads [inline-style link](https://www.google.com) and when clicked will link to the google url.
+
+#### File Reference Link
+\[Reference File Link\]\(../blob/master/LICENSE\)
+
+This will create a text that reads [Reference File Link](../blob/master/LICENSE) and when clicked will link to the file directory listed in the parens
+***
 
 Keith has things left to do for this final project.
