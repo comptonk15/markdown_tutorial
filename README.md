@@ -34,7 +34,7 @@ There are multiple options to implementing links using MarkDown. The first optio
 
 \[inline-style link\]\(https://www.google.com\)
 
-This will create a text that reads [I'm an inline-style link](https://www.google.com) and when clicked will link to the google url.
+This will create a text that reads [inline-style link](https://www.google.com) and when clicked will link to the google url.
 
 ***
 
