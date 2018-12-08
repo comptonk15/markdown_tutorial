@@ -1,5 +1,5 @@
 # Navigation
-[Tutorial File](../tutorial.md)
+[inline-style link](https://github.com/comptonk15/markdown_tutorial/blob/master/tutorial.md)
 ***
 
 # markdown_tutorial
