@@ -79,13 +79,14 @@ If you need to represent a code block without worrying about the syntax being in
 ### Indicating Language
 You can indicate a specific language syntax by using three consecutive \`\`\`backticks\`\`\`
 
-If you were trying to indicate that the code block was using Ruby you would put:
+If you were trying to indicate that the code block was using Ruby you would Do the following:
 
-this
-\`\`\`Ruby
-var s = 100
-let(:symbol) { double 'Symbol'}
-\`\`\`
+
+Start with three consectuive back ticks followed by the language:
+ \`\`\`Ruby
+ var s = 100
+ let(:symbol) { double 'Symbol'}
+ \`\`\`
 
 Which would out put a code block that knew which language syntax to use. It should appear like this:
 ```Ruby
