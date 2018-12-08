@@ -82,11 +82,11 @@ You can indicate a specific language syntax by using three consecutive \`\`\`bac
 If you were trying to indicate that the code block was using Ruby you would Do the following:
 
 
-Start with three consectuive back ticks followed by the language:
- \`\`\`Ruby
- var s = 100
- let(:symbol) { double 'Symbol'}
- \`\`\`
+
+>\`\`\`Ruby
+>var s = 100
+>let(:symbol) { double 'Symbol'}
+>\`\`\`
 
 Which would out put a code block that knew which language syntax to use. It should appear like this:
 ```Ruby
